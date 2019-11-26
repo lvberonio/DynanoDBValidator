@@ -47,7 +47,7 @@ Access local url via browser or Postman (recommended): http://localhost:8181/pin
 |   |   └── validationUtils.js
 |   ├── services
 |   |   └── DynamoDBServices.js
-|   └── helpes.js
+|   └── helpers.js
 └── tests
     ├── core
     |   └── experimentRepository.spec.js
