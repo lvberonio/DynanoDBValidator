@@ -5,14 +5,17 @@ Validate your next API endpoints with simple validator `jsonschema`.
 **Included Resources:**
 
 - API gateway
-- Lambda
+- Lambda function
 - Jest test
 
-**NOTE:** This is a code snippet to validate your API endpoints. It won't run using this project alone.
+**NOTE:** These are code snippets to validate your API endpoints. This project does not run alone.
 
 ## Quick Start
 
-**Prerequisites**: Install Serverless Framework with: `npm install -g serverless`.
+**Prerequisites**: Install Serverless Framework with: 
+```bash
+`npm install -g serverless`.
+```
 
 Create Serverless project
 
@@ -38,6 +41,8 @@ Access local url via browser or Postman (recommended): http://localhost:8181/pin
 ## Directory Structure
 
 ```
+├── schemas
+|   └── experiment_request.json
 ├── src
 |   ├── core
 |   |   └── experimentRepository.js
@@ -51,10 +56,13 @@ Access local url via browser or Postman (recommended): http://localhost:8181/pin
 └── tests
     ├── core
     |   └── experimentRepository.spec.js
-    ├── helpers.spec.js
-    └── services
-        └── DynamoDBServices.spec.js
+    ├── services
+    |   └── DynamoDBServices.spec.js
+    └── helpers.spec.js
 ```
+
+**schemas/**  
+File json for your data schema.
 
 **src/**  
 Main source code for your application.

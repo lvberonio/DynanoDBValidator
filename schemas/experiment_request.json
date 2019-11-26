@@ -1,0 +1,45 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "/fieldExperiment",
+  "type": "object",
+  "required": [
+    "event",
+    "inputs",
+    "name",
+    "params",
+    "time"
+  ],
+  "properties": {
+    "event": {
+      "type": "string"
+    },
+    "extra_data": {
+      "type": "object",
+      "properties": {
+        "otherData": {
+          "type": "string"
+        }
+      }
+    },
+    "inputs": {
+      "type": "object",
+      "properties": {
+        "id": {
+          "type": "number"
+        }
+      }
+    },
+    "name": {
+      "type": "string"
+    },
+    "params": {
+      "type": "object"
+    },
+    "salt": {
+      "type": "string"
+    },
+    "time": {
+      "type": "number"
+    }
+  }
+}
