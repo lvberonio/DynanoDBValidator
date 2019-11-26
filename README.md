@@ -12,9 +12,12 @@ Validate your next API endpoints with simple validator `jsonschema`.
 
 ## Quick Start
 
-**Prerequisites**: Install Serverless Framework with: 
+### Prerequisites 
+
+Install Serverless Framework
+
 ```bash
-`npm install -g serverless`.
+`npm install -g serverless`
 ```
 
 Create Serverless project
