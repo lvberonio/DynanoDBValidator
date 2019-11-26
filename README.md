@@ -44,8 +44,9 @@ Access local url via browser or Postman (recommended): http://localhost:8181/pin
 ## Directory Structure
 
 ```
-├── schemas
-|   └── experiment_request.json
+├── config
+|   └── schemas
+|       └── experiment_request.json
 ├── src
 |   ├── core
 |   |   └── experimentRepository.js
