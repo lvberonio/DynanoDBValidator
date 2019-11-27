@@ -1,6 +1,6 @@
-# API DynamoDB Validator with Jest test
+# Serverless-DynamoDB-Validator
 
-Validate your next API endpoints with simple validator `jsonschema`. 
+Validate before it gets saved to DynamoDB with simple validator `jsonschema`. Plus, a unit test is added with Jest.
 
 **Included Resources:**
 
